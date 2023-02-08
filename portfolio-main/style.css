@@ -1,0 +1,597 @@
+body{
+	font-family: twb;
+	scroll-behavior: smooth;
+}
+@font-face{
+	src: url('fonts/TitilliumWeb-Regular.ttf');
+	font-family: twr;
+}
+@font-face{
+	src: url('fonts/TitilliumWeb-Light.ttf');
+	font-family: twl;
+}
+@font-face{
+	src: url('fonts/TitilliumWeb-Bold.ttf');
+	font-family: twb;
+}
+@font-face{
+	src: url('fonts/TitilliumWeb-SemiBold.ttf');
+	font-family: twsb;
+}
+.header-area{
+	background: #1b1919;
+	padding: 8px 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	
+}
+.container{
+	width: 85%;
+	margin: auto;
+}
+.flex{
+    display:flex;
+}
+.menu-area{
+	width: 100%;
+	overflow: hidden;
+	font-family: twb;
+	text-align: center;
+}
+.menu-area ul li{
+	display: inline-block;
+}
+.menu-area ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase; 
+	padding: 5px 15px;
+	display: block;
+	border: 5px 5px solid transparent;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+.menu-area ul li:nth-child(1) a {
+	background: #06999e;
+}
+.menu-area ul li:last-child a{
+	margin-right: 0;
+}
+.menu-area ul li :hover {
+	background: #06999e;
+}
+
+/*----------------------intro-------------------------*/
+.intro-area{
+	background-image: url(istockphoto-1272362475-612x612.jpg);
+	padding: 80px 0;
+	overflow: hidden;
+	margin: 0;
+	background-size: 100% 100%;	
+}
+
+.intro-area .left-area{
+	width: 68%;
+	margin-left: 4%;
+	float: left;
+	overflow: hidden;
+}
+.intro-area .left-area p:first-child{
+	margin:5px 0;
+    font-weight: bold;
+    color:white;
+    background-color: #06999e;
+    padding:15px;
+    width:90px;
+    text-align:center;
+    border-radius:45% 40px 45px 0%
+}
+.intro-area .left-area h1{
+	font-weight: 600;
+    margin:5px 0;
+	color: #eaf5f5;
+	font-family: twsb;
+}
+.intro-area .left-area h4{
+	color: #d9e4e4;
+	font-family: twsb;
+	font-weight: 600;
+	
+}
+.intro-area .image{
+    width: 250px;
+    height: 250px;
+    position:relative;
+    display: table; 
+    margin: 20px auto;
+    height:180px;
+    width: 180px;
+}
+
+
+.intro-area .image {    
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.intro-area .center{
+    width:220px;
+    height:220px;
+    border-radius: 50%;
+}
+.intro-area .image img{
+    margin: 0px;
+    width: 250px;
+    height: 250px;
+	text-align: center;
+    border-radius: 50%;
+	transition: 2s linear 1s;
+}
+.intro-area .left-area .contact p{
+    font-size: 18px;
+	color: #dfdfdf;
+}
+.intro-area .left-area i{
+    margin-right:12px;
+	
+	
+}
+.intro-area .left-area .contact .flex{
+    margin:10px 0;
+    padding:5px 0;
+	text-decoration: none;
+	
+}
+.intro-area .left-area .mail i{
+    font-size:25px;
+    color:rgb(247,179,33);
+}
+
+.intro-area .left-area .number i{
+    font-size:25px;
+    margin-right: 5px;
+    color:rgb(247,179,33);
+
+}
+.intro-area .left-area .address i{
+    font-size:25px;
+    color:rgb(247,179,33);
+}
+.intro-area .left-area p{
+    margin:auto 0;
+}
+.intro-area .socail-media{
+    margin:15px 0;
+}
+.social-media a{
+    font-size:22px;
+    padding:10px;
+	text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-media .fa-facebook{
+    background-color: rgb(33, 87, 248);
+    color:rgb(250, 246, 246);
+    font-size:22px;
+    padding:10px 15px;
+    
+}
+.social-media .fa-facebook:hover{
+    box-shadow: 0 0 5px rgb(21, 120, 250);
+
+}
+
+.social-media .fa-twitter{
+    color: rgb(62, 167, 253);
+    background-color:rgb(243, 236, 236);
+    margin:0 8px;
+}
+.social-media .fa-twitter:hover{
+    box-shadow: 0 0 5px rgb(243, 236, 236);
+}
+
+.social-media .fa-instagram{
+    background-color: rgb(247, 179, 33);
+    color:white;
+}
+
+.social-media .fa-instagram:hover{
+    box-shadow: 0 0 5px rgb(247, 179, 33);
+}
+
+
+
+
+
+.intro-area .right-area{
+	width: 28%;
+	float: left;
+	overflow: hidden;
+}
+.intro-area .right-area p{
+	color: black;
+}
+
+
+
+
+
+
+/* start team area desing */
+.team-area{
+	background-image: url(istockphoto-675705028-612x612.jpg) ;
+	padding: 80px 0;
+	background-size: 100% 100%;	
+	text-align: center;
+}
+.team-content h2{
+	font-size: 40px;
+	color: #e9eaeb;
+	font-family: twb;
+	letter-spacing: 3px;
+	margin: 0;
+}
+.team-content hr{
+	border-bottom: 5px solid #9ca3b3;
+	border-top: 0;
+	width: 90px;
+	border-left: 0;
+	border-right: 0;
+}
+.team-content p{
+	color: #f8f8f8;
+	font-size: 20px;
+}
+.team-area .row img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.service-area h4{
+	font-size: 24px;
+	font-family: twb;
+	color: #30bae7;
+	margin-bottom: 10%;
+}
+.team-area h4{
+	font-size: 24px;
+	font-family: twsb;
+	color: #30bae7;
+	margin-bottom: 0%;
+}
+.team-area h5{
+	font-size: 16px;
+	color: #eedc3a;
+	font-family: twl;
+	margin: 0;
+}
+.team-area .row p{
+	font-size: 16px;
+	color: #9ca3b3;
+}
+.social ul{
+	margin: 0;
+	padding: 0;
+}
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	width: 21px;
+	height: 20px;
+	font-size: 20px;
+	color: #ffffff;
+	background: #BDD1DF;
+	margin: 5px;
+	padding: 8px;
+	display: block;
+	border-radius: 50%;
+}
+.social ul li a{
+	text-decoration: none;
+}
+
+.row{
+	overflow: hidden;
+	margin-top: 80px;
+}
+.col-1-4{
+	width: 23%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+/* skill area desing */
+
+.skill-area{
+	background-color: #ffffff;
+	padding: 80px 0;
+	background-size: 102%;	
+	text-align: center;
+	}
+	.skill-content h2{
+		font-size: 40px;
+		color: #000000;
+		font-family: twb;
+		letter-spacing: 3px;
+		margin: 0;
+	}
+	.skill-content p{
+		color: #000000;
+		font-size: 20px;
+		width: 100%;
+		margin: auto;
+		
+	}
+	.skill-area .row {
+		color: #000000;
+		font-size: 24px;
+		font-family: twb;
+	}
+	.skill-area .row h4{
+		margin-right: 10px;
+	}
+/* Start Portfolio Area Design */
+.portfolio-area{
+	background-image:url(istockphoto-1159044412-612x612.jpg);
+	padding: 80px 0;
+	text-align: center;
+	background-size: 100% 100%;	
+}
+.portfolio-content h2{
+	font-size: 40px;
+	color: #000000;
+	font-family: twb;
+	letter-spacing: 3px;
+	margin: 0;
+}
+.portfolio-content hr{
+	border-bottom: 5px solid #e5c37f;
+	border-top: 0;
+	width: 90px;
+	border-left: 0;
+	border-right: 0;
+}
+.portfolio-content p{
+	color: #000000;
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+}
+.portfolio-area .row img{
+	width: 100%;
+}
+.portfolio-filter{
+	margin-top: 40px;
+}
+
+.portfolio-filter{
+	margin: 0;
+	padding: 0;
+}
+.portfolio-filter ul li {
+	display: inline-block;
+}
+.portfolio-filter ul li a{
+	background: #ebc985;
+	padding: 5px 15px;
+	margin: 0 5px;
+	display: block;
+	border-radius: 5px;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.portfolio-filter ul li:nth-child(1) a{
+	background: #ffffff;
+}
+.row .col-1-2{
+	width: 48%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+.portfolio-area .row h5{
+	font-size: 25px;
+	font-family: twlb;
+	color: #000000;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+.green-btn{
+	margin-top: 30px;
+}
+.green-btn a{
+	background-color: #17c2a4;
+	padding: 15px 50px;
+	color: #ffffff;
+	text-decoration: none; 
+	font-family: twsb;
+	text-align: center;
+	margin: auto;
+	border-bottom: 5px solid #14a58c;
+	border-radius: 5px;
+}
+/* Start About Area Desing */
+.about-area{
+    background-image:url(r11.jpg);
+    padding: 80px 0;
+    color: #ffffff;
+    text-align: center;
+	background-size: 100% 100%;	
+}
+.about-content h2{
+	font-size: 40px;
+	color: #ffffff;
+	font-family: twb;
+	letter-spacing: 3px;
+	margin: 0;
+}
+.about-content hr{
+	border-bottom: 5px solid #065c68;
+	border-top: 0;
+	width: 90px;
+	border-left: 0;
+	border-right: 0;
+}
+.about-content p{
+	color: #ffffff;
+	font-size: 20px;
+}
+.about-area .row img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.about-area .row .client-photo{
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+}
+.about-area .row .client-review{
+	width: 70%;
+	float: left;
+}
+.about-area .row p{
+	font-size: 21px;
+	font-style: italic;
+	text-align: left;
+	font-family: twsb;
+	margin-bottom: 0;
+	line-height: 35px;
+}
+.client-review h4{
+	font-size: 25px;
+	font-family: twsb;
+	color: #43d9f3;
+	border-bottom: 0;
+	border-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+.client-review h5{
+	font-size: 18px;
+	color: #eedc3a;
+	font-family: twl;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+	font-style: initial;
+}
+.mt50{
+	margin-top: 100px !important;
+}
+.mt51{
+	margin-top: 100px !important;
+}
+/* start touch area desing */
+.contect-area{
+	background-image: url(homework.jpg) ;
+	padding: 80px 0;
+	background-size: 100% 100%;	
+}
+.contect-area h2{
+	font-size: 40px;
+	color: #101a1d;
+	font-family: twb;
+	letter-spacing: 3px;
+	margin: 0;
+	text-align: left;
+}
+.contect-area p{
+	color:  #092229;
+	font-size: 20px;
+	font-family: twb;
+	text-align: left;
+}
+.contect label{
+	display: block;
+	color: rgb(3, 37, 30);
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: auto;
+	text-align: left;
+}
+
+.contect input{
+	width: 100%;
+	box-sizing: border-box;
+	margin: 3px 0;
+	background: rgba(0,0,0,0.7);
+	padding: 6px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: tahoma;
+}
+.contect-area input{
+	width: 50%;
+	text-align: left;
+	border-radius: 5px;
+}
+.contect textarea{
+	width: 50%;
+	box-sizing: border-box;
+	margin: 3px 0;
+	background: rgba(0,0,0,0.7);
+	padding: 2px;
+	color: #ffffff;
+	margin: 10px 0;
+	font-size: 17px;
+	font-family: tahoma;
+	text-align: left;
+	border-radius: 10px;
+}
+.contect input:focus,
+.contect textarea:focus{
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid transparent;
+}
+.blue-btn a{
+	background-color: #396874;
+	padding: 15px 50px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: twsb;
+	text-align: left;
+	display: block;
+	width: 12%;
+	border-bottom: 2px solid #000000 ;
+	border-radius: 5px;
+}
+/* start foter area desing */
+.foter-area {
+	background: rgb(2,57,78);
+	padding: 40px 0;
+	text-align: center;
+	border-top: 2px solid #396874;
+}
+.foter-area ul{
+	margin: 0;
+	padding: 0;
+}
+.foter-area ul li{
+	display: inline-block;
+}
+.foter-area ul li a{
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: capitalize ;
+	text-decoration: none;
+	margin: 25px;
+}
+.foter-area ul li:last-child(1) a {
+	margin-right: 0;
+}
+
+
+
+
+
+
